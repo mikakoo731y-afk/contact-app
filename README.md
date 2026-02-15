@@ -6,7 +6,7 @@
 
 git clone https://github.com/mikakoo731y-afk/contact-app
 
-docker-compose up -d --build`
+docker-compose up -d --build
 
 
 **Laravel環境構築**
