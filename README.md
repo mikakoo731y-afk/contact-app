@@ -10,16 +10,21 @@ docker-compose up -d --build`
 
 
 **Laravel環境構築**
+
 docker-compose exec php bash
 
 **パッケージインストール**
+
 composer install
 
 **環境変数の設定（必要に応じて.env内を編集**
+
 cp .env.example .env
 
 **データベース構築**
+
 php artisan key:generate
+
 php artisan migrate:fresh --seed
 
 
