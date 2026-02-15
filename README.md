@@ -3,7 +3,9 @@
 **1. 環境構築の手順**
 
 **Dockerビルド**
+
 git clone https://github.com/mikakoo731y-afk/contact-app
+
 docker-compose up -d --build`
 
 
