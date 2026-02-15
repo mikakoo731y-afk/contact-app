@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    font-family: "serif";
+    color: #8b7969;
+    background-color: #f3e5d8;
+}
+
+.header {
+    background-color: #f3e5d8;
+    border-bottom: 1px solid #ffffff;
+    padding: 30px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo {
+    color: #8b7969;
+    margin: 0;
+    letter-spacing:2px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-app {
+    padding: 60px 0;
+}
+
+.contact-app__content {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 60px;
+    border-radius: 5px;
+}
+
+.contact-app__heading {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #8b7969;
+    padding-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.form__group {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.form__group-title {
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: left;
+    max-width: 400px;
+}
+
+.form__label--required {
+    color: #ff0000;
+    margin-left: 5px;
+    font-size: 0.9rem;
+}
+
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d9c5b2;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.form__input--name,
+.form__input--tel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__input--tel input {
+    width: 30%;
+}
+
+.form__input--radio {
+    margin-top: 5px;
+}
+.form__input--radio label {
+    margin-right: 15px;
+}
+
+
+.form__button {
+    text-align: center;
+    margin-top: 40px;
+}
+.form__button-submit {
+    background-color: #8b7969;
+    color: #ffffff;
+    padding: 15px 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+.form__button-submit:hover {
+    background-color: #7b7068;
+}
+
+
+.form__input--name {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.form__name-unit {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.form__name-unit input {
+    width: 100% !important;
+}
+
+.error-msg {
+    color: #ff0000;
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+
+    padding: 12px;
+    border: 1px solid #d9c5b2;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-size: 1rem;
+    resize: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #8b7969;
+    box-shadow: 0 0 5px rgba(139, 121, 105, 0.2);
+}
+
+.confirm-table {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 40px;
+    border-collapse: collapse;
+}
+
+.confirm-table th,
+.confirm-table td {
+    padding: 15px 0;
+    text-align: left;
+    border-bottom: 1px solid #f3e5d8;
+}
+
+.confirm-table th {
+    width: 40%;
+    font-weight: bold;
+    color: #8b7969;
+}
+
+.confirm-table td {
+    width: 60%;
+    color: #333;
+}
+
+
+.form__button-back {
+    display: block;
+    margin-top: 15px;
+    color: #8b7969;
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+
+.thanks__content {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #f3e5d8;
+}
+
+.thanks__background {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.thanks__background span {
+    font-size: 160px;
+    font-weight: bold;
+    color: #ffffff;
+    opacity: 0.4;
+    white-space: nowrap;
+    letter-spacing: 5px;
+}
+
+.thanks__inner {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.thanks__message {
+    font-size: 1.5rem;
+    color: #8b7969;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.thanks__button-link {
+    display: inline-block;
+    background-color: #8b7969;
+    color: #ffffff;
+    padding: 15px 60px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.thanks__button-link:hover {
+    background-color: #7b7068;
+    transform: translateY(-2px);
+}
