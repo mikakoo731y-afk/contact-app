@@ -15,11 +15,7 @@ docker-compose up -d --build
 
 docker-compose exec php bash
 
-**パッケージインストール**
-
 composer install
-
-**環境変数の設定（必要に応じて.env内を編集**
 
 cp .env.example .env
 
