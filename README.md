@@ -29,7 +29,7 @@ php artisan migrate:fresh --seed
 **2. 開発環境URL**
 
 - **お問い合わせ画面:** http://localhost:8000
-- **管理者ログイン:** http://localhost:8000/login
+- **管理者登録ページ:** http://localhost:8000/register
 - **phpMyAdmin:** http://localhost:8080
 
 **3. 使用技術（実行環境）**
