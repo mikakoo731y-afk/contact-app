@@ -6,6 +6,8 @@
 
 git clone https://github.com/mikakoo731y-afk/contact-app
 
+cd contact-app
+
 docker-compose up -d --build
 
 
